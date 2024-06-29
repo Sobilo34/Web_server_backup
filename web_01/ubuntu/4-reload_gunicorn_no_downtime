@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Send HUP signal to the master Gunicorn process
+kill -s HUP "$(pgrep gunicorn)"

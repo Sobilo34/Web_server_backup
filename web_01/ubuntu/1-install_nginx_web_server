@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Bash script that configures a new Ubuntu machine
+# it Install nginx on on server web-01
+# When querying Nginx at its root / with a GET request (requesting a page) using curl, it must return a page that contains the string Hello World!
+# can’t use systemctl for restarting nginx
+
+
+apt-get update
+# Updated package list and install nginx
+apt-get install -y nginx
+ufw allow 'Nginx HTTP'
+# Restart nginx (without using systemctl)
+service nginx --full-restart
+echo "Hello World!" > /var/www/html/index.html
