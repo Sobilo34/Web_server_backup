@@ -1,0 +1,8 @@
+[submodule "web_01/ubuntu/AirBnB_clone_v2"]
+	url = https://github.com/Sobilo34/AirBnB_clone_v2
+[submodule "web_01/ubuntu/AirBnB_clone_v3"]
+	url = https://github.com/Sobilo34/AirBnB_clone_v3
+[submodule "web_01/ubuntu/AirBnB_clone_v4"]
+	url = https://github.com/Sobilo34/AirBnB_clone_v4
+[submodule "web_02/ubuntu/AirBnB_clone_v2"]
+	url = https://github.com/Sobilo34/AirBnB_clone_v2_new
